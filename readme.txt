@@ -228,3 +228,4 @@ mit der Ip[einer der Slave-Server] im webbrowser öffnen!!!
 
 ////Fehlermeldung: sollte eine Fehlermeldung im Webbrowser erscheinen, dann statt "https://" einfach "http://"ändern!!!/////
 
+ENDE
