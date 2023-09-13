@@ -1,0 +1,8 @@
+---
+- hosts: rest
+  become: yes
+  tasks:
+  - name: Hier wollen wir cowsy installieren
+    dnf:
+      name: cowsay
+      state: latest

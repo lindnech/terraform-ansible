@@ -1,0 +1,13 @@
+---
+- hosts: webserver
+  become: yes
+  tasks:
+  - name: Hier wollen wir nginx installieren
+    dnf:
+      name: nginx
+      state: latest
+  - name: Starte Nginx-Dienst
+    service:
+      name: nginx
+      state: started
+      enabled: yes
